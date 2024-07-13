@@ -493,10 +493,21 @@ h3{
   .chiefs-container {
       flex-direction: column;
       align-items: center;
+    
   }
   .chief-card {
       width: 90%;
       margin: 10px 0;
+      
+  }
+  .chief-card p{
+    display: none;
+  }
+  .chief-card img{
+    height: 200px;
+    width: auto;
+
+
   }
   .contact-section {
       width: 100%;
