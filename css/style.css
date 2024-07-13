@@ -461,21 +461,21 @@ position: unset;
         display: none;
     }
     .mobile {
-        display: contents;
-        border: 2px solid black;
-        color: #1d84f3;
-        
-    }
-    .mobile a{
-        list-style-type: none;
-        text-decoration: none;
-        border: 2px solid black;
-        border: none;
-        padding: 5px;
-        margin: 20px;
-        font-size: larger;
-        
-    }
+    display: contents;
+    border: 2px solid black;
+    color: #1d84f3;
+    
+}
+.mobile a{
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid black;
+    border: none;
+    padding: 5px;
+    margin: 20px;
+    font-size: larger;
+    
+}
 
     .hero {
         display: none;
