@@ -460,7 +460,7 @@ position: unset;
     .mobile {
         display: contents;
         border: 2px solid black;
-        color: #0367d3;
+        color: #1d84f3;
         
     }
     .mobile a{
@@ -478,17 +478,7 @@ position: unset;
         display: none;
         gap: 10px;
     } 
-    .mobile button a {
-        height: 80px;
-        width: 80px;
-        display: inline-block;
-        margin-top: 4px;
-        padding: 10px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin-left: 40px;
-    }
+   
     .item {
         width: 100%;
         height: auto;
