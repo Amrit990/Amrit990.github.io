@@ -123,6 +123,9 @@ input[type="text"]::placeholder {
     opacity: 1; 
     font-weight: bold;
 }
+.mobile{
+display:none;
+    
 /* header css is done here now the hero section comes */
 .hero-all{
     height: 100vh;
