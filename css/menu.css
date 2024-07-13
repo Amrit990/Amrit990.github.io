@@ -122,6 +122,9 @@ input[type="text"]::placeholder {
   opacity: 1; 
   font-weight: bold;
 }
+.mobile{
+  display: none;
+}
 
 /* Hero Section */
 .video-container {
@@ -349,11 +352,22 @@ h2 {
 nav{
   display: none;
 }
-  nav a {
-      font-size: medium;
-      padding: 0.5rem;
-  }
-
+.mobile {
+  display: contents;
+  border: 2px solid black;
+  color: #0367d3;
+  
+}
+.mobile a{
+  list-style-type: none;
+  text-decoration: none;
+  border: 2px solid black;
+  border: none;
+  padding: 5px;
+  margin: 20px;
+  font-size: larger;
+  
+}
   .menu {
       flex-direction: column;
       align-items: center;

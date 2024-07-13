@@ -117,6 +117,9 @@ input{
 border-color: blue;
 text-align: center;
 }
+.mobile{
+  display: none;
+}
 
 input[type="text"]::placeholder {
     color: #283618; 
@@ -360,56 +363,7 @@ h3{
 .slide.active {
   opacity: 1;
 }
-/* @media (max-width: 480px)  {
-  *{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 
-  }
-  .header{
-    height: 30px;
-    width: 100%;
-    display: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 60px;
-  }
-  nav{
-    display: none;
-  }
-  .history{
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-  }
-  .history img{
-    height: 250px;
-    width: auto;
-    margin-top: 20px;
-    margin-left: 90px;
-  }
-  .historyText {
-    padding: 10px;
-    width: 60%;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 1s forwards;
-    animation-delay: 1s;
-  }
-  
-  .historyText h2 {
-    font-size: 1.0rem;
-    margin: 0.5rem;
-  }
-  
-  .historyText p {
-    font-size: 0.9em;
-    line-height: 1.0;
-    margin-bottom: 2px;
-  }
-} */
 @media (max-width: 480px)  {
   * {
       justify-content: center;
@@ -425,18 +379,22 @@ h3{
       text-align: center;
       gap: 6px;
   }
-  .hamburger-menu {
-      display: flex;
-      flex-direction: column;
-      cursor: pointer;
-  }
-  .hamburger-menu span {
-      width: 25px;
-      height: 3px;
-      background: black;
-      margin: 3px 0;
-      transition: 0.4s;
-  }
+  .mobile {
+    display: contents;
+    border: 2px solid black;
+    color: #0367d3;
+    
+}
+.mobile a{
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid black;
+    border: none;
+    padding: 5px;
+    margin: 20px;
+    font-size: larger;
+    
+}
   nav {
     display: none;
 }
