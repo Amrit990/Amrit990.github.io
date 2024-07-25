@@ -106,6 +106,13 @@ button:hover {
     box-shadow: 0 6px 20px rgba(237, 235, 240, 0.911);
     background: linear-gradient(45deg, #2575fc, #6a11cb);
 }
+.button a{
+    font-size: large;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
 
 .button:active {
     box-shadow: 0 4px 10px rgba(81, 51, 249, 0.899);
